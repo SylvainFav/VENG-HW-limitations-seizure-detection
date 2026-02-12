@@ -13,7 +13,7 @@ extern const char* subject_list[];
 
 #define VENG_DATA_FOLDER "../dummy_inputs/" // Folder where experimental data buffers are stored
 #define RUN_FOLDER "../outputs/" // General folder to store the results
-#define RUN_CATEGORY "ref" // Sub-folder in RUN_FOLDER
+#define RUN_CATEGORY "test" // Sub-folder in RUN_FOLDER
 
 #define NOISY // Add noise in the IA (slows down simulation)
 #define SATURATE // Apply saturation on AFILT outputs
