@@ -2,5 +2,9 @@
 */build/
 */timescoring/
 */ref_seizures/
+*/__pycache__/
+*/*/__pycache__/
+dummy_inputs/*/*
 outputs/*/ap_in/*/*
 outputs/*/behav_out/*/*
+
