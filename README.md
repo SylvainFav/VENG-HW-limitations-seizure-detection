@@ -9,6 +9,8 @@ This set of codes is linked to the publication [Favresse2026], studying the impa
 
 The real experimental VENG data belongs to the Institute of Neuroscience, UCLouvain (represented by Prof. Riëm El Tahry) and the BEAMS department, ULB (represented by Prof. Antoine Nonclercq) and is therefore not shared publicly.
 
+The results from the sensitivity analysis are stored in the *sensitivity_analysis_results* folder.
+
 ## References
 * [Favresse2026]:
 * [Raffoul2022]: R. Raffoul et al., "Action Potential Detection Algorithm Adaptable to Individual Nerve and Recording Setup," 2022 IEEE Biomedical Circuits and Systems Conference (BioCAS), Taipei, Taiwan, 2022, pp. 655-659, doi: 10.1109/BioCAS54905.2022.9948681.
@@ -22,5 +24,6 @@ The whole workflow must be ran step by step.
 3. *behavout2apin.c* (launched with *python3 behavout2apin.py*): transforms the output of the behavioral model into a format used for the AP detection algorithm.
 4. *rt-ap-algo/main.c* (launched with *make run*): runs the AP detection algorithm for all 8 rats. The algorithm parameters can be configured in *rt-ap-algo/include/setup.h*.
 5. *seizure-classifier/main.py* (launched with *python3 main.py*): runs the classification of seizure events for all 8 rats.
+
 All intermediate and final results are stored in *outputs/CATEGORY/*.
 
